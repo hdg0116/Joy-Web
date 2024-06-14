@@ -1,0 +1,51 @@
+.modal {
+    display: none; /* 초기에는 숨김 */
+    position: fixed; /* 위치 고정 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* 반투명한 배경 */
+}
+
+.modal-background {
+    position: absolute; /* 위치 설정 */
+    top: 50%; /* 화면 상단에서 50% 지점에 위치 */
+    left: 50%; /* 화면 왼쪽에서 50% 지점에 위치 */
+    transform: translate(-50%, -50%); /* 세로, 가로 중앙 정렬 */
+    background-color: white;
+    width: 270px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.modal .button {
+    text-align: right;
+}
+
+#openModal:hover {
+    background-color: rgb(41, 99, 193);
+    color: white;
+    border-radius: 5px;
+}
+
+#openModal {
+    border-radius: 5px;
+}
+
+#closeModal:hover {
+    background-color: rgb(41, 99, 193);
+    color: white;
+    border-radius: 5px;
+}
+
+#closeModal {
+    border-radius: 5px;
+}

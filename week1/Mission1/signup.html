@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>회원가입 페이지</title>
+        <link rel="stylesheet" href="./src/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="contents">
+                <h2>회원가입</h2>
+
+                <div class="inputType">이름</div>
+                <input class="signUpInfo" id="name"><br>
+                <div id="nameCheck" class="message"></div>
+                <br/>
+
+                <div class="inputType">이메일</div>
+                <input class="signUpInfo" id="email"><br>
+                <div id="emailCheck" class="message"></div>
+                <br>
+
+                <div class="inputType">나이</div>
+                <input class="signUpInfo" id="age"><br>
+                <div id="ageCheck" class="message"></div>
+                <br>
+
+                <div class="inputType">비밀번호</div>
+                <input class="signUpInfo" id="password" type="password"><br>
+                <div id="pwCheck" class="message"></div>
+                <br>
+
+                <div class="inputType">비밀번호 확인</div>
+                <input class="signUpInfo" id="pwAgain" type="password"><br>
+                <div id="pwAgainCheck" class="message"></div>
+                <br>
+
+                <button id="openModal" onclick = "check()">가입하기</button>
+            </div>
+
+            <div class="modal">
+                <div class="modal-background">
+                    <div class="title">가입 성공!</div>
+                    <p class="ptag">UMC 챌린저 가입을 축하합니다!</p>
+                    <div class="button">
+                        <button id="closeModal">닫기</button>
+                    </div>
+                </div>
+            </div>
+        <script src="./src/signup.js"></script>
+    </body>
+</html>

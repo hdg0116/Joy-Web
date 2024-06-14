@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  background-color: #dee5f2;
+  font-family: Nanumsquare;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  font-family: NanumSquare;
+  font-weight: 1000;
+  font-size: 40px;
+  padding: 80px;
+}
+
+.background {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.todoBox {
+  width: 80%;
+  text-align: center;
+}
+
+#line {
+  border-top: 2px solid #bbcef1;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.inputBox {
+  width: 80%;
+  height: 20px;
+  font-size: 12px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+.inputBox::placeholder {
+  font-style: italic;
+}
+
+#listBox {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+#toDoList,
+#completed {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.listTitle {
+  width: auto;
+  font-weight: 700;
+  border-bottom: solid 3px #bbcef1;
+  padding-bottom: 3px;
+  margin-bottom: 10%;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.listitem {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 3px #bbcef1;
+  padding-bottom: 5%;
+  margin-top: 10%;
+}
+
+.detail {
+  font-weight: 700;
+}
+
+.itembutton {
+  background-color: #bbcef1;
+  border: none;
+  font-family: Nanumsquare;
+  font-weight: bold;
+}

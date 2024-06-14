@@ -1,0 +1,138 @@
+body {
+    background-color: #77cde7;
+    font-family: Nanumsquare;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+h2{
+    text-align: center;
+    border-bottom: solid 2px white;
+    border-top: none;
+    padding: 20px;
+    width: 50%;
+    font-weight: 1000;
+}
+
+.contaier {
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.contents{
+    background-color: rgb(211, 235, 241);
+    border-radius: 5px;
+    font-family: Nanumsquare;
+    width: 35rem;
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contents .inputType{
+    font-size: 12px;
+    font-weight: bold;
+    width: 45%;
+}
+
+.signUpInfo{
+    background-color: rgb(211, 235, 241);
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 12px;
+    width: 45%;
+    height: 25px;
+    font-family: Nanumsquare;
+}
+
+#openModal {
+    background-color: grey;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: Nanumsquare;
+}
+
+.hide {
+    display: none;
+}
+
+#success {
+    color: green;
+}
+
+#fail {
+    color: red;
+}
+
+.message {
+    margin: 0;
+    text-align: left;
+}
+
+/*modal*/
+.modal {
+    display: none; /* 초기에는 숨김 */
+    position: absolute; /* 위치 고정 */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* 반투명한 배경 */
+}
+
+.modal-background {
+    position: absolute; /* 위치 설정 */
+    top: 50%; /* 화면 상단에서 50% 지점에 위치 */
+    left: 50%; /* 화면 왼쪽에서 50% 지점에 위치 */
+    transform: translate(-50%, -50%); /* 세로, 가로 중앙 정렬 */
+    background-color: white;
+    width: 270px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.modal .button {
+    text-align: right;
+}
+
+.ptag {
+    text-align: center;
+    font-size: 12px;
+}
+
+#closeModal:hover {
+    background-color: rgb(41, 99, 193);
+    color: white;
+    border-radius: 5px;
+}
+
+#closeModal {
+    border-radius: 5px;
+}

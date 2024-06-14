@@ -1,0 +1,48 @@
+.modal {
+    display: none;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.modal-background {
+    background-color: white;
+    padding: 20px;
+    border-radius: 3px;
+}
+  
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.modal .button {
+    text-align: right;
+}
+  
+.modal button {
+    border-radius: 3px;
+}
+  
+.modal button:hover {
+    background-color: #0056b3;
+}
+  
+#openModal:hover,
+#closeModal:hover {
+    background-color: rgb(41, 99, 193);
+    color: white;
+    border-radius: 3px;
+}
+  
+#openModal,
+#closeModal {
+    border-radius: 3px;
+}
